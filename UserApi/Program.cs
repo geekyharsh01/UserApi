@@ -41,7 +41,7 @@ app.UseStaticFiles();
 
 app.UseDefaultFiles();
 app.UseRouting();
-app.UseCors();
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 
